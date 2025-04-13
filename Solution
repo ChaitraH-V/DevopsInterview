@@ -1,0 +1,9 @@
+To Reduce the cost of the cosmos DB usage cost we can follow the below steps.
+1. Azure cosmos DB --> for billing the record, the data which will be accessed more.
+2. Blob Storage --> to store the old data or the data which will be consumed less.
+3. Azure Blob Storage REST API ---> For accessing the old data
+
+Note: Please find the ChatGpt conversion for the accessing the old data
+which API can we use in azure to call the old data stored in blob storage
+ChatGPT said:
+In Azure, if you want to access or retrieve old data stored in Blob Storage, you can use the Azure Blob Storage REST API, or one of the SDKs built on top of it, depending on your language of choice.
